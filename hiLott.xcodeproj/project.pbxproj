@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AA8CCEF244D549700102588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8CCEE244D549700102588 /* AppDelegate.swift */; };
+		9AA8CCF1244D549700102588 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8CCF0244D549700102588 /* SceneDelegate.swift */; };
+		9AA8CCF6244D549700102588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA8CCF4244D549700102588 /* Main.storyboard */; };
+		9AA8CCF8244D549B00102588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA8CCF7244D549B00102588 /* Assets.xcassets */; };
+		9AA8CCFB244D549B00102588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA8CCF9244D549B00102588 /* LaunchScreen.storyboard */; };
+		9AA8CD06244D549B00102588 /* hiLottTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8CD05244D549B00102588 /* hiLottTests.swift */; };
+		9AA8CD12244D72FD00102588 /* LotteryFactory in Frameworks */ = {isa = PBXBuildFile; productRef = 9AA8CD11244D72FD00102588 /* LotteryFactory */; };
+		9AA8CD14244D753000102588 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8CD13244D753000102588 /* MainView.swift */; };
+		9AA8CD16244D809C00102588 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA8CD15244D809C00102588 /* Team.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA8CD02244D549B00102588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA8CCE3244D549600102588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA8CCEA244D549600102588;
+			remoteInfo = hiLott;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AA8CCEB244D549700102588 /* hiLott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hiLott.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA8CCEE244D549700102588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AA8CCF0244D549700102588 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AA8CCF5244D549700102588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA8CCF7244D549B00102588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AA8CCFA244D549B00102588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AA8CCFC244D549B00102588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA8CD01244D549B00102588 /* hiLottTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hiLottTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA8CD05244D549B00102588 /* hiLottTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiLottTests.swift; sourceTree = "<group>"; };
+		9AA8CD07244D549B00102588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA8CD13244D753000102588 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		9AA8CD15244D809C00102588 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA8CCE8244D549600102588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA8CD12244D72FD00102588 /* LotteryFactory in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA8CCFE244D549B00102588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AA8CCE2244D549600102588 = {
+			isa = PBXGroup;
+			children = (
+				9AA8CCED244D549700102588 /* hiLott */,
+				9AA8CD04244D549B00102588 /* hiLottTests */,
+				9AA8CCEC244D549700102588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA8CCEC244D549700102588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA8CCEB244D549700102588 /* hiLott.app */,
+				9AA8CD01244D549B00102588 /* hiLottTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA8CCED244D549700102588 /* hiLott */ = {
+			isa = PBXGroup;
+			children = (
+				9AA8CCEE244D549700102588 /* AppDelegate.swift */,
+				9AA8CCF0244D549700102588 /* SceneDelegate.swift */,
+				9AA8CD13244D753000102588 /* MainView.swift */,
+				9AA8CD15244D809C00102588 /* Team.swift */,
+				9AA8CCF4244D549700102588 /* Main.storyboard */,
+				9AA8CCF7244D549B00102588 /* Assets.xcassets */,
+				9AA8CCF9244D549B00102588 /* LaunchScreen.storyboard */,
+				9AA8CCFC244D549B00102588 /* Info.plist */,
+			);
+			path = hiLott;
+			sourceTree = "<group>";
+		};
+		9AA8CD04244D549B00102588 /* hiLottTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA8CD05244D549B00102588 /* hiLottTests.swift */,
+				9AA8CD07244D549B00102588 /* Info.plist */,
+			);
+			path = hiLottTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AA8CCEA244D549600102588 /* hiLott */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA8CD0A244D549B00102588 /* Build configuration list for PBXNativeTarget "hiLott" */;
+			buildPhases = (
+				9AA8CCE7244D549600102588 /* Sources */,
+				9AA8CCE8244D549600102588 /* Frameworks */,
+				9AA8CCE9244D549600102588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hiLott;
+			packageProductDependencies = (
+				9AA8CD11244D72FD00102588 /* LotteryFactory */,
+			);
+			productName = hiLott;
+			productReference = 9AA8CCEB244D549700102588 /* hiLott.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AA8CD00244D549B00102588 /* hiLottTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA8CD0D244D549B00102588 /* Build configuration list for PBXNativeTarget "hiLottTests" */;
+			buildPhases = (
+				9AA8CCFD244D549B00102588 /* Sources */,
+				9AA8CCFE244D549B00102588 /* Frameworks */,
+				9AA8CCFF244D549B00102588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA8CD03244D549B00102588 /* PBXTargetDependency */,
+			);
+			name = hiLottTests;
+			productName = hiLottTests;
+			productReference = 9AA8CD01244D549B00102588 /* hiLottTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA8CCE3244D549600102588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tran To";
+				TargetAttributes = {
+					9AA8CCEA244D549600102588 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					9AA8CD00244D549B00102588 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9AA8CCEA244D549600102588;
+					};
+				};
+			};
+			buildConfigurationList = 9AA8CCE6244D549600102588 /* Build configuration list for PBXProject "hiLott" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA8CCE2244D549600102588;
+			packageReferences = (
+				9AA8CD10244D72FD00102588 /* XCRemoteSwiftPackageReference "LotteryFactory" */,
+			);
+			productRefGroup = 9AA8CCEC244D549700102588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AA8CCEA244D549600102588 /* hiLott */,
+				9AA8CD00244D549B00102588 /* hiLottTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AA8CCE9244D549600102588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA8CCFB244D549B00102588 /* LaunchScreen.storyboard in Resources */,
+				9AA8CCF8244D549B00102588 /* Assets.xcassets in Resources */,
+				9AA8CCF6244D549700102588 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA8CCFF244D549B00102588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AA8CCE7244D549600102588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA8CD16244D809C00102588 /* Team.swift in Sources */,
+				9AA8CD14244D753000102588 /* MainView.swift in Sources */,
+				9AA8CCEF244D549700102588 /* AppDelegate.swift in Sources */,
+				9AA8CCF1244D549700102588 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA8CCFD244D549B00102588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA8CD06244D549B00102588 /* hiLottTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AA8CD03244D549B00102588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA8CCEA244D549600102588 /* hiLott */;
+			targetProxy = 9AA8CD02244D549B00102588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AA8CCF4244D549700102588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA8CCF5244D549700102588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AA8CCF9244D549B00102588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA8CCFA244D549B00102588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AA8CD08244D549B00102588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AA8CD09244D549B00102588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AA8CD0B244D549B00102588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hiLott/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cremebrulee.hiLott;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AA8CD0C244D549B00102588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hiLott/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cremebrulee.hiLott;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AA8CD0E244D549B00102588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hiLottTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cremebrulee.hiLottTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hiLott.app/hiLott";
+			};
+			name = Debug;
+		};
+		9AA8CD0F244D549B00102588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hiLottTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cremebrulee.hiLottTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hiLott.app/hiLott";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA8CCE6244D549600102588 /* Build configuration list for PBXProject "hiLott" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA8CD08244D549B00102588 /* Debug */,
+				9AA8CD09244D549B00102588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA8CD0A244D549B00102588 /* Build configuration list for PBXNativeTarget "hiLott" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA8CD0B244D549B00102588 /* Debug */,
+				9AA8CD0C244D549B00102588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA8CD0D244D549B00102588 /* Build configuration list for PBXNativeTarget "hiLottTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA8CD0E244D549B00102588 /* Debug */,
+				9AA8CD0F244D549B00102588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9AA8CD10244D72FD00102588 /* XCRemoteSwiftPackageReference "LotteryFactory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:tranto/LotteryFactory.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AA8CD11244D72FD00102588 /* LotteryFactory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AA8CD10244D72FD00102588 /* XCRemoteSwiftPackageReference "LotteryFactory" */;
+			productName = LotteryFactory;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9AA8CCE3244D549600102588 /* Project object */;
+}
