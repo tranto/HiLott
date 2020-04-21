@@ -19,9 +19,9 @@ struct MainView: View {
                 .padding()
 
             Button(action: {
-                let factory = LotteryFactory(numOfMembers: Team.getAvailablePens().count)
+                let factory = LotteryFactory(numOfMembers: Team.getAvailableGuys().count)
                 let index = factory.doLottery()
-                self.startGreeting = "\(Team.getAvailablePens()[index].name.uppercased()) is the winner"
+                self.startGreeting = "\(Team.getAvailableGuys()[index].name.uppercased()) is the winner"
             }, label: {
                 Text("Roll dice")
                     .background(Color.white)

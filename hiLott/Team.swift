@@ -24,7 +24,7 @@ class Team: ObservableObject {
         Member(name: "Tran")
     ]
 
-    static func getAvailablePens() -> [Member] {
+    static func getAvailableGuys() -> [Member] {
         return availableMembers
     }
 }
